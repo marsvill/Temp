@@ -1,6 +1,7 @@
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/UsfV4ntw"))() --loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)()
 Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/YUFBgmrX"))()
 
+print("Loaded")
 -- // Vars
 local AimingChecks = Aiming.Checks
 local AimingSelected = Aiming.Selected
