@@ -1,4 +1,4 @@
-local ESP = {
+getgenv().ESP = {
     Objects = {},
     Enabled = false,
     Settings = {
@@ -10,7 +10,7 @@ local ESP = {
         BoxesTransparency = 0.5
     }
 }
-
+ESP = ESP
 local Camera = workspace.CurrentCamera
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
