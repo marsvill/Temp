@@ -172,7 +172,7 @@ function Esp:UpdateObject(player)
     if self.Settings.Names then
         local namePos = pos - Vector2.new(0, size.Y/2 + objects.Name.TextBounds.Y)
         objects.Name.Position = namePos
-        objects.Name.Size = math.max(1000/depth, Esp.TextSize)
+        objects.Name.Size = math.max(1000/depth, self.Settings.TextSize)
         objects.Name.Text = player.DisplayName or player.Name 
         objects.Name.Transparency = self.NamesTransparency
         objects.Name.Visible = true
