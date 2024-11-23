@@ -174,7 +174,7 @@ function Esp:UpdateObject(player)
         objects.Name.Position = namePos
         objects.Name.Size = math.max(1000/depth, self.Settings.TextSize)
         objects.Name.Text = player.DisplayName or player.Name 
-        objects.Name.Transparency = self.NamesTransparency
+        objects.Name.Transparency = self.Settings.NamesTransparency
         objects.Name.Visible = true
     end
     -- Update tracer
