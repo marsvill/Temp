@@ -1,3 +1,4 @@
+if getgenv().Esp then return getgenv().Esp end
 
 getgenv().Esp = {
     Objects = {},
