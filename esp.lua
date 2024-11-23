@@ -1,6 +1,5 @@
-if getgenv().Esp then return getgenv().Esp end
 
-local Esp = {
+getgenv().Esp = {
     Objects = {},
     Enabled = false,
     Settings = {
@@ -17,7 +16,6 @@ local Esp = {
         NamesTransparency = 1,
     },
 }
-getgenv().Esp = Esp
 
 local Camera = workspace.CurrentCamera
 local Players = game:GetService("Players")
