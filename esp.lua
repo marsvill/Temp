@@ -71,7 +71,7 @@ function Esp:CreateObject(player)
             Text = player.Name,
             Center = true,
             Outline = true,
-            Size = self.TextSize,
+            Size = self.Settings.TextSize,
             Transparency = self.Settings.NamesTransparency,
             Color = Color3.new(1, 1, 1),
             Visible = false
